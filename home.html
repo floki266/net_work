@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISP Unified</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <div class="nav-left">
+    <button class="btn primary" id="navAccount">الحساب</button>
+    <span class="link" id="navHome">الرئيسية</span>
+  </div>
+  <div>
+    <img src="logo.png" alt="ISP Unified" width="130px">
+  </div>
+</header>
+
+<!-- ===== CONTENT ===== -->
+<div class="container">
+
+
+  <!-- =======================
+     HOME SECTION
+======================== -->
+<div id="homeSection" class="home-providers">
+
+  <div class="home-title">
+    <div class="wifi-icon">📶</div>
+    <h2>اختر مزود خدمة الإنترنت</h2>
+    <p>اختر الشركة المناسبة لك للبدء في الخدمة</p>
+  </div>
+
+  <div class="providers-grid">
+
+    <div class="provider-card">
+      <div class="provider-info">
+        <img src="افريقية.jpg" alt="Africa ISP">
+        <div>
+          <h4>أفريقيا للاتصالات والتقنية</h4>
+          <p>خدمات اتصالات متطورة</p>
+        </div>
+      </div>
+      <button class="btn primary">اختيار</button>
+    </div>
+
+    <div class="provider-card">
+      <div class="provider-info">
+        <img src="اوزون.jpg" alt="Ozon ISP">
+        <div>
+          <h4>OZON للاتصالات</h4>
+          <p>شبكة موثوقة ومستقرة</p>
+        </div>
+      </div>
+      <button class="btn primary">اختيار</button>
+    </div>
+
+    <div class="provider-card">
+      <div class="provider-info">
+        <img src="LTT.jpg" alt="LTT ISP">
+        <div>
+          <h4>LTT للاتصالات والتقنية</h4>
+          <p>بنية تحتية قوية</p>
+        </div>
+      </div>
+      <button class="btn primary">اختيار</button>
+    </div>
+
+    <div class="provider-card">
+      <div class="provider-info">
+        <img src="زاجل.jpg" alt="Ozon ISP">
+        <div>
+          <h4>زاجل للاتصالات</h4>
+          <p>شبكة موثوقة ومستقرة</p>
+        </div>
+      </div>
+      <button class="btn primary">اختيار</button>
+    </div>
+
+  </div>
+
+   
+
+  <p class="note">
+    يمكنك تغيير مزود الخدمة في أي وقت من الإعدادات
+  </p>
+
+</div>
+
+
+  <!-- =======================
+       ACCOUNT SECTION
+  ======================== -->
+  <div id="accountSection" style="display:none">
+
+    <!-- Account Info -->
+    <div class="card">
+      <div class="card-header">
+        <h3>معلومات الحساب</h3>
+        <p style="font-size:30px;">👤</p>
+      </div>
+
+      <div class="field">
+        <label>الاسم</label>
+        <input type="text" value="أحمد محمد" disabled>
+      </div>
+
+      <div class="field">
+        <label>البريد الإلكتروني</label>
+        <input type="email" value="ahmed@example.com" disabled>
+      </div>
+
+      <div class="field">
+        <label>رقم الهاتف</label>
+        <input type="text" value="+218 91 123 4567" disabled>
+      </div>
+
+      <button class="btn gray">تعديل المعلومات</button>
+    </div>
+
+    <!-- Bank Accounts -->
+    <div class="card">
+      <div class="card-header">
+        <h3>الحسابات المصرفية</h3>
+        <p style="font-size:30px;">💳</p>
+      </div>
+
+      <button class="btn primary add">إضافة بطاقة</button>
+
+      <div class="bank-card">
+        <span class="badge green">افتراضي</span>
+        <h4>مصرف الصحاري</h4>
+        <p>بطاقة فيزا</p>
+        <p>1234 ** **</p>
+        <button class="btn danger">حذف</button>
+      </div>
+
+      <div class="bank-card">
+        <h4>مصرف المتحد</h4>
+        <p>بطاقة ماستر كارد</p>
+        <p>5678 ** **</p>
+
+        <div class="actions">
+          <button class="btn danger">حذف</button>
+          <button class="btn gray">تعيين كافتراضي</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

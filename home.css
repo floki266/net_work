@@ -1,0 +1,222 @@
+  * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #f6f8fb;
+      color: #333;
+    }
+
+    /* ===== Navbar ===== */
+    .navbar {
+      background: #fff;
+      padding: 0px, 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    }
+
+    .nav-left {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .link {
+      color: #666;
+      cursor: pointer;
+    }
+
+    /* ===== Container ===== */
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 15px;
+    }
+
+    /* ===== Card ===== */
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 5px 15px rgba(0,0,0,.05);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    /* ===== Fields ===== */
+    .field {
+      margin-bottom: 15px;
+    }
+
+    .field label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    .field input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      background: #f9fafb;
+    }
+
+    /* ===== Buttons ===== */
+    .btn {
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .primary {
+      background: #5a4bff;
+      color: #fff;
+    }
+
+    .gray {
+      background: #eee;
+    }
+
+    .danger {
+      background: #ffd6d6;
+      color: #b40000;
+    }
+
+    .add {
+      margin-bottom: 15px;
+    }
+
+    /* ===== Bank Cards ===== */
+    .bank-card {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+
+    .bank-card h4 {
+      margin: 5px 0;
+    }
+
+    .bank-card p {
+      margin: 3px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .badge {
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+
+    .green {
+      background: #d4f8e8;
+      color: #0a7a4f;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 600px) {
+      .actions {
+        flex-direction: column;
+      }
+    }
+
+    /* ===== Home Providers ===== */
+.home-providers {
+  background: #fff;
+  border-radius: 14px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.05);
+}
+
+.home-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wifi-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.home-title h2 {
+  margin: 5px 0;
+}
+
+.home-title p {
+  font-size: 14px;
+  color: #777;
+}
+
+.providers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+}
+
+.provider-card {
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.provider-card:hover {
+  box-shadow: 0 10px 25px rgba(90,75,255,.15);
+  transform: translateY(-2px);
+}
+
+.provider-info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.provider-info img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.provider-info h4 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.provider-info p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.note {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin-top: 25px;
+}
